@@ -1,0 +1,1280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300&family=Oswald:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500;800&family=Open+Sans:ital,wght@0,600;1,300&family=Oswald:wght@700&display=swap');
+ 
+.industry{
+    margin-top:60px;
+    margin-left:150px;
+    margin-right:200px;
+    border-bottom:2px solid rgb(182, 178, 178);
+    padding-bottom:60px;
+}
+.industry h3, .programming h3{
+    color: #007bff;
+    text-align: center;
+    font-weight: bold;
+}
+.industry p,.programming p{
+    font-size: 22px;
+    color:gray;
+    font-weight: bold;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.industry h4{
+    font-size: 35px;
+    color:#fff;
+    font-weight: bold;
+    padding-top:30px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.web h4, .database h4, .apps h4, .front-end h4, .back-end h4{
+    font-family: 'Heebo', sans-serif;
+}
+#line{
+    margin-top:60px;
+}
+#first-pic{
+    margin-top:-70px;
+}
+#software-sol{
+   border-top:2px solid gray;
+    padding-top:100px;
+}
+
+.wp{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top:70px;
+width:60%;
+margin-left:100px;
+}
+
+.app-pics,.db-pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:150px;
+    margin-right:270px;
+    
+}
+.back-end,.front-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:4px solid #add8e6;
+    border-radius: 2%;
+}
+.heading-box{
+    background-color:#007bff ;
+    justify-content: center;
+    text-align: center;
+    padding:20px 0px;
+    border-radius: 3%;
+}
+
+.web ,.database, .apps{
+    border:4px solid #add8e6;
+    border-radius: 2%;
+    padding-bottom:60px;
+
+}
+
+.database, .apps{
+    margin-top:60px;
+    border-top:none;
+}
+
+.database p, .apps p{
+    padding:0px 30px;
+}
+
+.apps{
+    padding-bottom:100px;
+   
+}
+.web:hover , .database:hover , .apps:hover, .front-end:hover, .back-end:hover{
+    box-shadow:4px 4px 15px 15px rgb(172, 168, 168);
+}
+.db-pics{
+    margin-top:40px;
+    margin-left:150px;
+    margin-right:200px;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:50px;
+    margin-top:30px;
+
+}
+.image1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:150px;
+
+}
+.image2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:80px;
+}
+.imagef{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:30px;
+    margin-top:30px;
+}
+.imagefe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:100px;
+    margin-top:30px;
+}
+.image span, .image1 span, .image2 span, .imagef span, .imagefe span{
+    font-size:25px;
+    font-weight: bold;
+}
+.wp img,.db-pics img{
+    padding:0px 20px;
+    width:20%;
+    animation-duration: 5s;
+    border-radius:20%;
+    animation-timing-function: cubic-bezier( 0.311, 0.441, 0.444, 1.649);
+
+}
+
+.app-pics{
+    margin-top:50px;
+}
+.app-pics img{
+    padding:0px 20px;
+    width:20%;
+    border-radius:20%;
+}
+
+.programming{
+    margin-top:80px;
+    margin-left:150px;
+    margin-right:270px;
+    padding-bottom:100px;
+    border-bottom:2px solid gray;
+}
+
+.front-end-pics, .back-end-pics{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-left:0px;
+   margin-top: 50px;
+   width:100%;
+
+}
+.back-end-pics{
+   margin-left:0px;
+   margin-top:50px;
+   width:100%;
+}
+
+.front-end{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+#react-pic{
+    width:100%;
+}
+
+#dart{
+    width:100%;
+}
+
+.sub-heading{
+    color: #fff;
+    font-size:35px;
+    font-weight: bold;
+}
+.sub-heading-2{
+    padding-top:60px;
+    color: #fff;
+    font-size:35px;
+    font-weight: bold;
+
+}
+
+#multi{
+    margin-top: 60px;
+}
+#modern{
+    margin-top:60px;
+}
+#footer-sec{
+    margin-top:-150px;
+}
+
+.tech{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:300px;
+    
+}
+.card, .card-2{
+    margin-left:800px;
+    width:600px;
+    height: 400px;
+    transform:translate(-50%, -50%);
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition:0.5s;
+}
+.card-2{
+  margin-top:60px;
+}
+.front img{
+  width:100%;
+}
+.card .front, .card-2 .front{
+ 
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: #fff;
+    backface-visibility: hidden;
+    transform:rotateX(0deg);
+    transition: 0.5s;
+}
+.card .back,.card-2 .back{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: #fff;
+    backface-visibility: hidden;
+    transform:rotateX(180deg);
+    transition: 0.5s;
+}
+.card:hover , .card-2:hover{
+box-shadow:4px 4px 15px 15px rgb(172, 168, 168);
+}
+.card:hover .front, .card-2:hover .front{
+    transform:rotateX(-180deg);
+}
+.card:hover .back, .card-2:hover .back{
+    transform:rotateX(0deg);
+}
+
+.card .back h2,.card-2 .back h2{
+text-align: center;
+padding-top:20px;
+color: #007bff;
+}
+.tech p{
+    font-size:22px;
+    padding:0px 20px;
+}
+.flow{
+    margin:100px 270px 0px 150px;
+    display: flex;
+    flex-direction: row;
+}
+#last-box{
+    padding-bottom:100px;
+}
+.details span{
+    color:#007bff;
+}
+  #req, #arrow1, #plan, #arrow2, #design, #validation, #arrow3, #arrow4, #delivery, #arrow5,#valid, #support{
+        visibility: hidden;
+        animation-name: arrow;
+        animation-duration:2s;
+        animation-iteration-count: infinite;
+        animation-delay:3s;
+}
+         #arrow1{
+           animation-delay: 4s;
+         }
+         #plan{
+          animation-delay:4.25s;
+         }
+         #arrow2{
+             animation-delay: 5s;
+         }
+         #design{
+             animation-delay: 5.25s;
+         }
+         #arrow3{
+             animation-delay: 6s;
+         }  
+         #valid{
+             animation-delay: 6.25s;
+         }
+         #arrow4{
+             animation-delay: 7s;
+         }
+         #delivery{
+          animation-delay: 7.25s;
+         }
+         #arrow5{
+             animation-delay: 8s;
+         }
+         #support{
+           animation-delay: 8.25s;
+         }
+         .downarrow{
+           margin-right:350px;
+           margin-left: 150px;
+         }
+         .downarrow img{
+           float: right;
+         }
+
+ @keyframes arrow{
+    0%, 100%{
+        visibility: visible;
+        }
+            
+    }
+@keyframes move{
+    0%{
+        transform:translateY(30%);
+        -moz-transform: translateY(30%);
+    }
+    50%{
+        transform:translateY(0%);
+        -moz-transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(30%);
+        -moz-transform: translateY(30%);
+    }
+}
+
+
+/* For Digital Marketing Page */
+#stack{
+    margin-top:60px;
+}
+.first-box, #seo, .second-box, #sem, #social-media, #web-analytics{
+    display:flex;
+    flex-direction: row;
+    margin-top: 100px;;
+    margin-left:200px;
+    margin-right: 230px;
+
+}
+
+.seo-box{
+    width: 50%;
+    padding:30px 50px;
+    text-align: center;
+    background-color: #007bff;
+    border:4px solid rgb(175,171,171);
+}
+#sem-box{
+    margin-left:80px;
+}
+#web-box{
+margin-left:80px;
+padding:60px 50px;
+}
+.seo-box h3{
+    color:#fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+.second-box{
+    margin-top: 40px;
+}
+
+.seo-box:hover {
+    box-shadow:4px 4px 25px 10px rgb(172, 168, 168);
+}
+.seo-info, .last-two-info{
+    width:60%;
+    border:4px solid #007bff;
+    padding:20px 20px;
+    border-left: none;
+}
+.last-two-info{
+width:78%;
+padding-bottom:40px;
+}
+.seo-info h4, .last-two-info h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:#007bff;
+}
+.seo-info p, .last-two-info p{
+    padding-top:20px;
+font-size:20px;
+}
+.seo-pic{
+    margin-left:60px;
+    padding-top: 30px;
+}
+.seo-pic h5{
+    font-weight: bold;
+    padding-bottom: 0;
+}
+.speed-div{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.speed-div div{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+}
+.speed-div img{
+    width:10%;
+}
+.content-img{
+    width:30%;
+}
+.content-img img{
+    width:18%;
+}
+.seo-pic .progress-bar{
+    width:406px;
+    height:26px;
+    background-color:rgb(245, 237, 237);
+    padding:2px 0px 2px 4px;
+    margin:20px auto;
+}
+.seo-pic .progress-bar .progress{
+    width:25px;
+    height:20px;
+    background-color:#007bff;
+
+}
+#progress1{
+    background-color:rgb(125, 231, 125);
+}
+#progress2{
+    background-color: #00caad;
+}
+#progress3{
+    background-color: rgb(243, 166, 23);
+}
+.traffic{
+    transform:rotate(-90deg);
+    width:25%;
+    margin-bottom:-150px;
+    color:black;
+    font-size: 16px;;
+}
+.main{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 30px;
+    margin-bottom:40px;
+  
+}
+.first-line{
+    height:300px;          
+    width:15%;      
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#ppc-line{
+    background-color: #40e0d0;
+    animation: grow1 4s linear infinite;
+}
+
+.tab, #ad-line{
+    margin-left:10px;
+    width:50%;
+    background-color: #007bff;
+    animation: grow 4s linear infinite;
+
+}
+#ad-line{
+    background-color: #d87093;
+
+}
+#marketing-line{
+    background-color: #663399;
+    animation: grow2 4s linear infinite;
+
+}
+.tab p{
+    visibility: hidden;
+}
+
+#adv-pic{
+display:flex;
+flex-direction:column;
+width:50%;
+margin-top:0px;
+padding:0px;
+
+}
+.brand{
+width:100%;
+}
+
+.icons{
+display:flex;
+flex-direction:row;
+margin-left:100px;
+margin-right:100px;
+margin-top:20px;
+}
+#web-analytics{
+margin-bottom:120px;
+}
+#web-pic{
+width:50%;
+}
+.seo-info p span, .last-two-info p span{
+color:#007bff;
+}
+@keyframes grow{
+
+ 0%{
+     height:50px;}
+30%{
+     height:100px;
+             }
+60%{
+    height:150px;
+             }
+90%{
+    height: 200px;
+             }
+
+}
+@keyframes grow1{
+ 0%{
+     height:30px;}
+30%{
+     height:80px;
+             }
+ 60%{
+   height:120px;
+             }
+90%{
+    height: 180px;
+             }
+
+}
+@keyframes grow2{
+ 0%{
+     height:50px;}
+30%{
+     height:80px;
+             }
+ 60%{
+   height:130px;
+             }
+90%{
+    height: 180px;
+             }
+}
+/*
+@keyframes typing{
+    0%{
+        content:'F';
+
+    }
+    10%{
+        content:'Fr';
+
+    }
+    20%{
+       content:'Fro';
+
+    }
+    30%{
+        content:'Fron';
+    }
+    40%{
+        content:'Front'
+    }
+    50%{
+        content:'Front-e';
+
+    }
+    60%{
+        content:'Front-en';
+    }
+    70%{
+        content:'Front-end';
+    }
+   
+}
+@keyframes typing1{
+    0%{
+        content:'B';
+
+    }
+    10%{
+        content:'Ba';
+
+    }
+    20%{
+       content:'Bac';
+
+    }
+    30%{
+        content:'Back';
+    }
+    40%{
+        content:'Back-e'
+    }
+    50%{
+        content:'Back-en';
+
+    }
+    60%{
+        content:'Back-end';
+    }
+
+}*/
+
+
+                                                                       /* For Infrastructure Page */
+
+
+/* For Tablets */
+@media only screen and (max-device-width: 1060px){
+        .flow{
+            margin:100px 0px 0px 0px;
+            display: flex;
+            flex-direction: row;
+        
+    }
+    .downarrow{
+        margin-right:0px;
+        margin-left: 0px;
+      }
+      .downarrow img{
+        float: right;
+        width:5%;
+      }
+      #last-box{
+        padding-bottom:100px;
+    }
+    #valid{
+    width:32%;
+    }
+    .industry{
+        margin-top:60px;
+        margin-left:0px;
+        margin-right:0px;
+        border-bottom:2px solid rgb(182, 178, 178);
+        padding-bottom:60px;
+    }
+    .image{
+        display: flex;
+        flex-direction: row;
+        margin-left:0px;
+        margin-top:30px;
+        width:100%;
+        flex-wrap: wrap;
+    
+    }
+    .image1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left:0px;
+    
+    }
+    .wp{
+        margin-left:60px;
+    }
+    .wp img{
+        padding:0px 0px 0px 10px;
+        width:20%;
+    
+    }
+    .db-pics{
+        margin-top:40px;
+        margin-left:0px;
+        margin-right:0px;
+    }
+    .db-pics img{
+        width:20%;
+    }
+    .app-pics{
+        margin-top:50px;
+        width:100%;
+        margin-left:10px;
+    }
+    .app-pics img{
+        padding:0px 0px;
+        width:20%;
+        border-radius:20%;
+    }
+    .back-end,.front-end {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .heading-box{
+        background-color:#007bff ;
+        justify-content: center;
+        text-align: center;
+        padding:20px 0px;
+        border-radius: 3%;
+    }
+    .programming{
+        margin-top:80px;
+        margin-left:0px;
+        margin-right:0px;
+        padding-bottom:100px;
+
+    }
+    .imagef{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left:0px;
+        margin-top:30px;
+    }
+    .imagefe{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left:0px;
+        margin-top:0px;
+    }
+    .front-end-pics, .back-end-pics{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left:0px;
+        margin-top: 30px;
+        width:100%;
+     
+     }
+     .image2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left:0px;
+    }
+    .tech{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top:300px;
+        
+    }
+    .card, .card-2{
+        margin-left:450px;
+        width:700px;
+        height: 500px;
+        transform:translate(-50%, -50%);
+        transform-style: preserve-3d;
+        perspective: 600px;
+        transition:0.5s;
+    }
+    .card-2{
+      margin-top:60px;
+    }
+    .card .front, .card-2 .front{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: 100%;
+        background: #fff;
+        backface-visibility: hidden;
+        transform:rotateX(0deg);
+        transition: 0.5s;
+    }
+    .card .back,.card-2 .back{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: 100%;
+        background: #fff;
+        backface-visibility: hidden;
+        transform:rotateX(180deg);
+        padding:50px 0px 0px 0px;
+        transition: 0.5s;
+    }
+   
+    .card .back h2,.card-2 .back h2{
+        font-size:40px;
+        }
+        .tech p{
+            font-size:20px;
+        }
+        .card-2 .back p{
+            font-size:20px;
+        }
+    
+                                                 /* For Marketing Page */
+#line{
+    margin-top:0px;
+}
+  .first-box, #seo, .second-box, #sem, #social-media, #web-analytics{
+    display:flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left:0px;
+    margin-right: 0px;
+
+}
+#social-media{
+margin-left:250px;
+}
+
+.seo-box{
+    width: 100%;
+    padding:30px 50px;
+
+}
+#sem-box{
+    margin-left:0px;
+}     
+#web-box{
+    margin-left:0px;
+    padding:60px 50px;
+    }
+    .second-box{
+     margin-top: 0px;
+    }  
+    .seo-info, .last-two-info{
+        width:100%;
+        border:4px solid #007bff;
+        padding:20px 20px;
+        border-left: none;
+    }
+
+    .seo-info h4{
+        font-size:40px;
+    }
+   .seo-info p{
+       font-size:25px;
+   }
+    .seo-pic{
+        margin-left:0px;
+        padding-top: 30px;
+    }
+    .speed-div{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .speed-div div{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .speed-div h5{
+        font-size: 25px;
+    }
+    .speed-div img{
+        width:10%;
+    } 
+    .content-img{
+        width:30%;
+    }
+    .content-img img{
+        width:18%;
+    }  
+    .main{
+        display: flex;
+        flex-direction: row; 
+        margin-left: 120px;
+        margin-bottom:40px;
+      
+    } 
+    .tab-name{
+        font-size:22px;
+    }                                          
+    .speed-div img{
+    display:none;
+}
+#adv-pic{
+display:flex;
+flex-direction:column;
+width:100%;
+margin-top:0px;
+padding:0px;
+
+}
+.brand{
+width:100%;
+}
+
+.icons{
+display:flex;
+flex-direction:row;
+margin-left:60px;
+margin-right:100px;
+margin-top:20px;
+}
+#web-analytics{
+margin-bottom:120px;
+}
+#web-pic{
+width:100%;
+}
+}
+
+/* For Phones */
+@media only screen and (max-device-width: 450px){
+    #line{
+        margin-top:-200px;
+    }
+        .flow{
+            margin:100px 0px 0px 0px;
+            display: flex;
+            flex-direction: row;
+        
+    }
+    .downarrow{
+        margin-right:0px;
+        margin-left: 0px;
+      }
+      .downarrow img{
+        float: right;
+        width:8%;
+      }
+      #last-box{
+        padding-bottom:100px;
+    }
+    .industry{
+        margin-top:60px;
+        margin-left:0px;
+        margin-right:0px;
+        border-bottom:2px solid rgb(182, 178, 178);
+        padding-bottom:60px;
+    }
+    .image{
+        display: flex;
+        flex-direction: row;
+        margin-left:0px;
+        margin-top:30px;
+        width:100%;
+        flex-wrap: wrap;
+    
+    }
+    .image1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left:0px;
+    
+    }
+    .wp{
+        margin-left:50px;
+    }
+    .wp img{
+        padding:0px 0px 0px 0px;
+        width:15%;
+        animation-duration: 5s;
+        border-radius:20%;
+        animation-timing-function: cubic-bezier( 0.311, 0.441, 0.444, 1.649);
+    
+    }
+    .db-pics{
+        margin-top:40px;
+        margin-left:0px;
+        margin-right:0px;
+    }
+    .db-pics img{
+        width:20%;
+    }
+    .app-pics{
+        margin-top:50px;
+        width:100%;
+        margin-left:10px;
+    }
+    .app-pics img{
+        padding:0px 0px;
+        width:20%;
+        border-radius:20%;
+    }
+    .back-end,.front-end {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .heading-box{
+        background-color:#007bff ;
+        justify-content: center;
+        text-align: center;
+        padding:20px 0px;
+        border-radius: 3%;
+    }
+    .programming{
+        margin-top:80px;
+        margin-left:0px;
+        margin-right:0px;
+        padding-bottom:100px;
+
+    }
+    .imagef{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left:0px;
+        margin-top:30px;
+    }
+    .imagefe{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left:0px;
+        margin-top:0px;
+    }
+    .front-end-pics, .back-end-pics{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left:0px;
+        margin-top: 30px;
+        width:100%;
+     
+     }
+     .image2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left:0px;
+    }
+    .tech{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top:300px;
+        
+    }
+    .card, .card-2{
+        margin-left:60px;
+        width:700px;
+        height: 500px;
+        transform:translate(-50%, -50%);
+        transform-style: preserve-3d;
+        perspective: 600px;
+        transition:0.5s;
+    }
+    .card-2{
+      margin-top:60px;
+    }
+    .front img{
+      width:100%;
+    }
+    .card .front, .card-2 .front{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: 100%;
+        background: #fff;
+        backface-visibility: hidden;
+        transform:rotateX(0deg);
+        transition: 0.5s;
+    }
+    .card .back,.card-2 .back{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: 100%;
+        background: #fff;
+        backface-visibility: hidden;
+        transform:rotateX(180deg);
+        padding:0px 0px 0px 270px;
+        transition: 0.5s;
+    }
+    .card-2 .front{
+        margin-left:100px;
+    }
+    #block-chain{
+        margin-left:200px;
+        width:70%;
+    }
+    .card-2 .back{
+        padding: 0px 0px 0px 270px;
+    }
+
+    .card .back h2,.card-2 .back h2{
+        font-size:25px;
+        }
+        .tech p{
+            font-size:18px;
+        }
+        .card-2 .back p{
+            font-size:16px;
+        }
+
+                                                          /* For Marketing Page */
+
+.first-box, #seo, .second-box, #sem, #social-media, #web-analytics{
+    display:flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left:0px;
+    margin-right: 0px;
+
+}
+
+.seo-box{
+    width: 100%;
+    padding:30px 50px;
+
+}
+#sem-box{
+    margin-left:0px;
+}     
+#web-box{
+    margin-left:0px;
+    padding:60px 50px;
+    }
+    .second-box{
+        margin-top: 0px;
+    }  
+    .seo-info, .last-two-info{
+        width:100%;
+        border:4px solid #007bff;
+        padding:20px 20px;
+        border-left: none;
+    }
+   
+    .seo-pic{
+        margin-left:0px;
+        padding-top: 30px;
+    }
+    .speed-div{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .speed-div div{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .speed-div img{
+        width:10%;
+    } 
+    .content-img{
+        width:30%;
+    }
+    .content-img img{
+        width:22%;
+    } 
+.main{
+        display: flex;
+        flex-direction: row; 
+        margin-left: 20px;
+        margin-bottom:40px;
+      
+    } 
+    .tab-name{
+        font-size:18px;
+    }  
+#social-media .seo-info{
+width:100%;
+}      
+#adv-pic{
+display:flex;
+flex-direction:column;
+width:100%;
+margin-top:30px;
+padding:0px;
+
+}
+.brand{
+width:100%;
+}
+
+.icons{
+display:flex;
+flex-direction:row;
+margin-left:100px;
+margin-right:100px;
+margin-top:20px;
+}
+#web-analytics{
+margin-bottom:120px;
+}
+#web-pic{
+width:100%;
+}
+#web-pic img{
+width:100%;
+}
+}
+    /*<div class="main">
+          <div class="first-line">
+              <div class="tab"><p>height</p></div>
+              <div class="tab-name" style="width: 100px; font-weight:bold;">Web Traffic</div>
+          </div>
+          <div class="first-line" style="margin-left:30px;">
+              <div class="tab" id="ppc-line"><p>height</p></div>
+              <div class="tab-name" style="text-align:center; font-weight:bold;">PPC</div>
+          </div>
+          <div class="first-line" style="margin-left:30px;">
+              <div class="tab" id="ad-line"><p>height</p></div>
+              <div class="tab-name" style="text-align:center; font-weight:bold;">Advertising</div>
+          </div>
+          <div class="first-line" style="margin-left:30px;">
+              <div class="tab" id="marketing-line"><p>height</p></div>
+              <div class="tab-name" style="text-align:center; font-weight:bold;">Marketing</div>
+          </div>
+   <div id="social-media">
+                <div class="last-two-info wow slideInLeft">
+                    <h4>Social Media Advertising</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, vitae temporibus voluptatum quibusdam quam repudiandae delectus ea nostrum ipsum saepe nesciunt aut reiciendis! Quos nisi in aliquid, a eum reiciendis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab magni aperiam doloremque possimus, totam aliquid velit voluptas eius ipsum odio quae in laborum doloribus tempore nobis! Sequi blanditiis perspiciatis reprehenderit!</p>
+             </div>
+                <div class="seo-pic" id="adv-pic">
+                    <div class="brand"><img src="S:/brand.png"></div>
+                    <div class="icons">
+<span><img src="S:/f.png" alt="facebook icon" width="50%"></span>
+<span><img src="S:/tw.png" alt="twitter icon" width="50%"></span>
+<span><img src="S:/insta.png" alt="instagram icon" width="55%"></span>
+<span><img src="S:/g.png" alt="google-plus icon" width="50%"></span>
+</div>
+                </div>
+              </div>
+
+                    <!--Web Analytics-->
+                <div id="web-analytics">
+                        <div class="last-two-info wow slideInLeft">
+                            <h4>Web Analytics</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, vitae temporibus voluptatum quibusdam quam repudiandae delectus ea nostrum ipsum saepe nesciunt aut reiciendis! Quos nisi in aliquid, a eum reiciendis.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab magni aperiam doloremque possimus, totam aliquid velit voluptas eius ipsum odio quae in laborum doloribus tempore nobis! Sequi blanditiis perspiciatis reprehenderit!</p>
+                        
+                        </div>
+                        <div class="seo-pic" id="web-pic">
+                            <img src="S:/magnify.png" alt="web analytics">
+                            </div>
+                  </div> */                                           
